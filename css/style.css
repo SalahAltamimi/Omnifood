@@ -423,6 +423,7 @@ a:link {
   position: fixed;
   z-index: 999;
   transition: all ease-out 0.5s;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
 }
 .form h3 {
   font-size: 2rem;
@@ -484,6 +485,8 @@ a:link {
   background-color: #f7f7f7f7;
   width: 100%;
   z-index: 999;
+  height: 3vh;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
 }
 
 .hidden {

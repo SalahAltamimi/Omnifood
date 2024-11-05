@@ -1,6 +1,6 @@
 "use strict";
 
-const header = document.querySelector(".header");
+const nav = document.querySelector(".nav");
 const section1 = document.querySelector(".section-1");
 const section = document.querySelectorAll(".section");
 const overlay = document.querySelector(".overlay");
@@ -13,8 +13,8 @@ const nav_list = document.querySelector(".nav_list");
 
 ///////////////////////
 function sectionObserve([e], observe) {
-  if (e.isIntersecting) header.classList.remove("lazy");
-  else header.classList.add("lazy");
+  if (e.isIntersecting) nav.classList.remove("lazy");
+  else nav.classList.add("lazy");
   //   observe.unobserve(e.target);
 }
 const sectionInObserve = new IntersectionObserver(sectionObserve, {
