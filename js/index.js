@@ -11,7 +11,6 @@ const menu = document.querySelector(".menu");
 const close = document.querySelector(".close");
 const nav_list = document.querySelector(".nav_list");
 
-
 ///////////////////////
 function sectionObserve([e], observe) {
   if (e.isIntersecting) header.classList.remove("lazy");
