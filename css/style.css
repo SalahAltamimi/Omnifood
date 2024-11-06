@@ -81,6 +81,18 @@ li:last-child .nav_link:visited {
   font-weight: 500;
   margin-bottom: 5rem;
   line-height: 1.1;
+  animation: header ease-in-out 0.5s forwards;
+}
+
+@keyframes header {
+  0% {
+    opacity: 0;
+    transform: translateX(-8rem);
+  }
+  100% {
+    opacity: 100%;
+    transform: translateX(0);
+  }
 }
 .section-1-p {
   font-size: 2rem;
@@ -88,6 +100,7 @@ li:last-child .nav_link:visited {
   line-height: 1.5;
   margin-bottom: 4rem;
   color: #888;
+  animation: header ease-in-out 0.5s forwards;
 }
 .btn_list {
   margin-bottom: 5rem;
@@ -144,7 +157,7 @@ li:last-child .nav_link:visited {
 .section-1-img-hero {
   width: 100%;
   background-color: #fdf2e9;
-  opacity: 45%;
+  animation: header ease-in-out 0.5s forwards;
 }
 
 .section-2 {

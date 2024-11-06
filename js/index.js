@@ -25,6 +25,7 @@ const sectionInObserve = new IntersectionObserver(sectionObserve, {
 sectionInObserve.observe(section1);
 
 function sectionsObserve([e], observe) {
+  console.log(e);
   if (e.isIntersecting) e.target.classList.remove("section-hidden");
   observe.unobserve(e.target);
 }
